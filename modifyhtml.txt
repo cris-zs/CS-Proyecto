@@ -1,0 +1,41 @@
+
+        /*             let trInfo = document.createElement('tr');
+                    let trPicture = document.createElement('tr');
+                    let picture = document.createElement('img')
+                    picture.src = './img/student' + i + '.png'; 
+                    let tdName = document.createElement('td');
+                    let tdGrade = document.createElement('td');
+                    tdName.innerHTML += blackEagleStudents[i].name;
+                    tdGrade.innerHTML += blackEagleStudents[i].grade;
+                    trPicture.appendChild(picture);
+                    trInfo.appendChild(tdName);
+                    trInfo.appendChild(tdGrade);
+                    table.appendChild(trInfo);
+                    table.appendChild(trPicture); */
+
+                            // for(let i = 0; i<blackEagleStudents.length;i++){
+
+        //     let element = `
+        //         <tr>
+        //             <img src= './img/student${i}.png' width='75' height='75'></img>
+        //         </tr>
+        //         <tr>
+        //             <td>${blackEagleStudents[i].name}</td>
+        //             <td>${blackEagleStudents[i].grade}</td>
+        //             <td>${blackEagleStudents[i].professor}</td>
+        //             <td>${blackEagleStudents[i].house}</td>
+        //             <td><button onclick ="deleteStudent(this)">Eliminar<button></td>
+        //         </tr>
+        //         `;
+            //table.innerHTML += element;
+    }
+
+    /*    modifyInfo.style.display = 'block';
+        let editName = document.getElementById('edit-name');
+        let editGrade = document.getElementById('edit-grade');
+        let editProfessor = document.getElementById('edit-professor');
+        let editHouse = document.getElementById('edit-house');
+        editName.value = blackEagleStudents[studentIndex].name;
+        editGrade.value = blackEagleStudents[studentIndex].grade;
+        editProfessor.value = blackEagleStudents[studentIndex].professor;
+        editHouse.value = 0; */

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script defer src="app.js"></script>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+      </style>
+</head>
+<body>
+    <header>
+        <h1 id="page-identifier">Blue Lions</h1>
+    </header>
+
+    <section class="modify-info" id="modify-info">
+        <!--    <p>Ingrese la información a cambiar</p>
+           <input id="edit-name" type="text">
+           <input id="edit-grade" type="number">
+           <input id="edit-professor" type="text">
+           <select name="my-house" id="edit-house">
+               <option value="0">Aguila Negra</option>
+               <option value="1">Leon Azul</option>
+               <option value="2">Venado Dorado</option>
+           </select> -->
+       </section>
+   
+       <section class="user-interface">
+           <table>
+                <tr>
+                    <th>Clase a evaluar: Manejo de espada</th>
+                </tr>
+               <tr>
+                   <th>Alumno</th>
+                   <th>Calificacion</th>
+                   <th>Profesor</th>
+                   <th>Casa</th>
+               </tr>
+               <tbody id='students-table'>
+           
+               </tbody>
+       
+           </table>
+           <section class="new-student">
+               <p style="background-color: bisque; height:'50px' width= '50px';">Agregar un estudiante:</p>
+               <input id="name" placeholder="Nombre" type="text">
+               <input id="grade" placeholder="Calificacion" type="number">
+               <input id="professor" placeholder="Profesor" type="text">
+               <input id="house" placeholder="Casa" type="text">
+               <button id="add-student">Agregar</button>
+           </section>
+   
+           <section>
+               <p style="background-color: bisque; height:'50px' width= '50px';">Buscar un estudiante:</p>
+               <input id="search-student" type="text" placeholder="Ingrese Estudiante">
+               <button id="search">Buscar</button>
+               <div id = 'found-student'>
+                   <table>
+                       <tr>
+                           <th>Alumno</th>
+                           <th>Calificacion</th>
+                           <th>Profesor</th>
+                           <th>Casa</th>
+                           <th></th>
+                       </tr>
+                       <tbody id='show-student'>
+                   
+                       </tbody>
+                   </table>
+               </div>
+           </section>
+           
+           <button id="sort-by-name">Ordenar Alfabéticamente</button>
+   
+       </section>
+</body>
+</html>

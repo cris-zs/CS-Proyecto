@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Young Serif', serif;
+}
+
+body{
+    background-image: url('https://www.nintendo.co.jp/switch/anvya/pc/assets/images/introduction/bg_img1.jpg'); 
+    background-color: #cccccc;
+}
+
+header{
+    background-color: white;
+}
+
+.house-logo{
+    height: 15%;
+    width: 15%;
+}
+
+/* .house-menu{
+    display: flex;
+    align-content: center;
+} */
+
+table,th,td{
+    border: 1px solid black;
+    background-color: bisque;
+}
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.new-student{
+    display: block;
+}
+
+.modify-info{
+    margin-left: auto;
+    margin-right: auto;
+}
+
